@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', 'Sans-serif';
+}
+
+body{
+    background: #1F1514 url(assets/fundo.png);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    flex-direction: column;
+}
+
+#title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+input{
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    justify-content: center;
+}
+
+    button{
+    background-color: #54121E;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    max-width: 100px;
+    text-align: center;
+    position: relative;
+    left: 90px;
+}
